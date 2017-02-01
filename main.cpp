@@ -17,6 +17,9 @@ int main()
   cout << endl << "Dame un numero: ";
   cin >> y;
   suma_resta();
+  cout << endl << suma << "Resultado de suma entre x y: " << endl;
+  cout << endl << resta << "Resultado de resta entre x y: " << endl;
+  
   cout << endl << endl;
   system("PAUSE");
   return 0;
