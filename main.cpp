@@ -6,8 +6,7 @@ using namespace std;
 int x, y, z;
 int suma, resta;
 
-void multiplicacion();
-void division();
+void multiplicacion_division();
 void suma_resta();
 
 int main()
@@ -17,12 +16,16 @@ int main()
   cout << endl << "Dame un numero: ";
   cin >> y;
   suma_resta();
-  cout << endl << suma << "Resultado de suma entre x y: " << endl;
-  cout << endl << resta << "Resultado de resta entre x y: " << endl;
-  
   cout << endl << endl;
   system("PAUSE");
   return 0;
+}
+
+void multiplicacion_division()
+{
+  cout << endl << x*y;
+  cout << endl << x/y;
+  return;
 }
 
 void suma_resta()
