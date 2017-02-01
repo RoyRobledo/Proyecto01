@@ -3,6 +3,10 @@
 
 using namespace std;
 
+int x, y, z;
+
+multiplicacion();
+
 int main()
 {
  
