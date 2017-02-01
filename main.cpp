@@ -3,8 +3,7 @@
 
 using namespace std;
 
-int x, y, z;
-int suma, resta;
+int x, y;
 
 void multiplicacion_division();
 void suma_resta();
@@ -30,7 +29,7 @@ void multiplicacion_division()
 
 void suma_resta()
 {
- suma = x + y;
- resta = x - y;
+ cout << endl << x + y;
+ cout << endl << x - y;
  return;
 }
