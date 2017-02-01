@@ -1,3 +1,14 @@
-adas
-//Proyecto01: Programa que suma dos números.
-printf("HOLa mundo");
+#include <iostream>
+#include <conio.h>
+
+using namespace std;
+
+int main()
+{
+ 
+  
+  
+  cout << endl << endl;
+  system("PAUSE");
+  return 0;
+}
