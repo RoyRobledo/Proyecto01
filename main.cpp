@@ -6,13 +6,16 @@ using namespace std;
 int x, y, z;
 int suma, resta;
 
-multiplicacion();
+void multiplicacion();
+void division();
 void suma_resta();
 
 int main()
 {
- 
-  
+  cout << endl << "Dame un numero: ";
+  cin >> x;
+  cout << endl << "Dame un numero: ";
+  cin >> y;
   suma_resta();
   cout << endl << endl;
   system("PAUSE");
